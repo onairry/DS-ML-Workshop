@@ -14,3 +14,5 @@ elif st.button("การทำความสะอาดข้อมูล"):
     st.switch_page("pages/clean_app.py")
 elif st.button("Clean Customer"):
     st.switch_page("pages/clean_customers.py")
+elif st.button("ระบบคำนวณส่วนลดร้านค้า"):
+    st.switch_page("pages/app1_discount_calc.py")
