@@ -4,5 +4,5 @@ pandas
 numpy
 seaborn
 matplotlib
-joblip
+joblib
 plotly
