@@ -20,5 +20,7 @@ elif st.button("🍨การวิเคราะห์ข้อมูลเช
     st.switch_page("pages/EDA_app.py")
 elif st.button("🍨การพยากรณ์ยอดขายแบบง่าย"):
     st.switch_page("pages/sale_predict.py")
-elif st.button("🍨การพยากรณ์ระยะเวลาการให้บริการขนส่ง"):
-    st.switch_page("pages/truck_predict.py")
+elif st.button("🍨การจัดกลุ่มข้อมูล"):
+    st.switch_page("pages/clustering_segment.py")
+elif st.button("🍨ระบบแนะนำสินค้าจาก Market Basket Analysis"):
+    st.switch_page("pages/association_items.py")
